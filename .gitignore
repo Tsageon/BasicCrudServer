@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+.env
+.env.local
+.env.*.local
+
+# Firebase credentials (just in case)
+serviceAccountKey.json
+firebase-adminsdk*.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# IDE/editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Build outputs
+dist/
+build/
+
+# OS trash
+Thumbs.dbv
