@@ -30,8 +30,8 @@ Firestore database set up
 
 **Installation**
 Clone the repo
-git clone https://github.com/your-repo/employee-management-api.git
-cd employee-management-api
+git clone https://github.com/Tsageon/BasicCrudServer.git
+cd BasicCrudServer
 
 Install dependencies
 npm install
@@ -118,4 +118,3 @@ Role Checks:
 Middleware verifies token and role
 
 Access is granted only if user role matches allowed roles for that route
-
