@@ -15,8 +15,8 @@ app.use("/api/employees", employeeRoutes);
 app.use('/api/pay', paystackRoutes);
 app.use("/api/users", userRoutes);
 
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
-app.listen(PORT, () => {
+app.listen(PORT, '0.0.0.0', () => {
   console.log(`Server running on port http://localhost:${PORT}`);
 });
